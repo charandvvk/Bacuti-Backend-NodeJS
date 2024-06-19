@@ -1,0 +1,165 @@
+{
+    "19626a68-2c71-11ef-9241-6d5460e45705": {
+        "name": "Car",
+        "type": "product",
+        "scope_1": 41013,
+        "scope_2": 31887,
+        "scope_3": 99422,
+        "subassemblies": {
+            "19634e74-2c71-11ef-9241-6d5460e45705": {
+                "name": "Wheel Assembly",
+                "type": "subassembly",
+                "parentId": "19626a68-2c71-11ef-9241-6d5460e45705",
+                "scope_1": 18784,
+                "scope_2": 10368,
+                "scope_3": 45096
+            },
+            "19634faa-2c71-11ef-9241-6d5460e45705": {
+                "name": "Brake Assembly",
+                "type": "subassembly",
+                "parentId": "19626a68-2c71-11ef-9241-6d5460e45705",
+                "scope_1": 15264,
+                "scope_2": 12928,
+                "scope_3": 32004
+            },
+            "1963504a-2c71-11ef-9241-6d5460e45705": {
+                "name": "Light System",
+                "type": "subassembly",
+                "parentId": "19626a68-2c71-11ef-9241-6d5460e45705",
+                "scope_1": 5509,
+                "scope_2": 7175,
+                "scope_3": 17497
+            }
+        },
+        "components": {
+            "19646c28-2c71-11ef-9241-6d5460e45705": {
+                "name": "Transmission",
+                "type": "component",
+                "parentId": "19626a68-2c71-11ef-9241-6d5460e45705",
+                "scope_1": 344,
+                "scope_2": 576,
+                "scope_3": 1206
+            },
+            "19646d18-2c71-11ef-9241-6d5460e45705": {
+                "name": "Bucket Seats",
+                "type": "component",
+                "parentId": "19626a68-2c71-11ef-9241-6d5460e45705",
+                "scope_1": 720,
+                "scope_2": 640,
+                "scope_3": 2390
+            },
+            "19646d90-2c71-11ef-9241-6d5460e45705": {
+                "name": "Back Seat",
+                "type": "component",
+                "parentId": "19626a68-2c71-11ef-9241-6d5460e45705",
+                "scope_1": 392,
+                "scope_2": 200,
+                "scope_3": 1229
+            },
+            "19646db8-2c71-11ef-9241-6d5460e45705": {
+                "name": "Nuts",
+                "type": "component",
+                "parentId": "19634e74-2c71-11ef-9241-6d5460e45705",
+                "scope_1": 16384,
+                "scope_2": 6912,
+                "scope_3": 35840
+            },
+            "19646dea-2c71-11ef-9241-6d5460e45705": {
+                "name": "Tire",
+                "type": "component",
+                "parentId": "19634e74-2c71-11ef-9241-6d5460e45705",
+                "scope_1": 928,
+                "scope_2": 2112,
+                "scope_3": 5084
+            },
+            "19646e12-2c71-11ef-9241-6d5460e45705": {
+                "name": "Faceplate",
+                "type": "component",
+                "parentId": "19634e74-2c71-11ef-9241-6d5460e45705",
+                "scope_1": 1472,
+                "scope_2": 1344,
+                "scope_3": 4172
+            },
+            "19646e62-2c71-11ef-9241-6d5460e45705": {
+                "name": "Brake Pads",
+                "type": "component",
+                "parentId": "19634faa-2c71-11ef-9241-6d5460e45705",
+                "scope_1": 4416,
+                "scope_2": 1728,
+                "scope_3": 9384
+            },
+            "19646ea8-2c71-11ef-9241-6d5460e45705": {
+                "name": "Disks",
+                "type": "component",
+                "parentId": "19634faa-2c71-11ef-9241-6d5460e45705",
+                "scope_1": 1760,
+                "scope_2": 2368,
+                "scope_3": 4764
+            },
+            "19646ed0-2c71-11ef-9241-6d5460e45705": {
+                "name": "Nuts",
+                "type": "component",
+                "parentId": "19634faa-2c71-11ef-9241-6d5460e45705",
+                "scope_1": 9088,
+                "scope_2": 8832,
+                "scope_3": 17856
+            },
+            "19646ef8-2c71-11ef-9241-6d5460e45705": {
+                "name": "Front Lights",
+                "type": "component",
+                "parentId": "1963504a-2c71-11ef-9241-6d5460e45705",
+                "scope_1": 848,
+                "scope_2": 976,
+                "scope_3": 2466
+            },
+            "19646f20-2c71-11ef-9241-6d5460e45705": {
+                "name": "Rear Lights",
+                "type": "component",
+                "parentId": "1963504a-2c71-11ef-9241-6d5460e45705",
+                "scope_1": 378,
+                "scope_2": 686,
+                "scope_3": 2198
+            },
+            "19646f52-2c71-11ef-9241-6d5460e45705": {
+                "name": "Turning Lights",
+                "type": "component",
+                "parentId": "1963504a-2c71-11ef-9241-6d5460e45705",
+                "scope_1": 2208,
+                "scope_2": 2176,
+                "scope_3": 4596
+            },
+            "19646f7a-2c71-11ef-9241-6d5460e45705": {
+                "name": "Interior",
+                "type": "component",
+                "parentId": "1963504a-2c71-11ef-9241-6d5460e45705",
+                "scope_1": 315,
+                "scope_2": 273,
+                "scope_3": 1026
+            },
+            "19646fa2-2c71-11ef-9241-6d5460e45705": {
+                "name": "Turning Switch",
+                "type": "component",
+                "parentId": "1963504a-2c71-11ef-9241-6d5460e45705",
+                "scope_1": 376,
+                "scope_2": 392,
+                "scope_3": 1145
+            },
+            "19646fca-2c71-11ef-9241-6d5460e45705": {
+                "name": "Door Switch",
+                "type": "component",
+                "parentId": "1963504a-2c71-11ef-9241-6d5460e45705",
+                "scope_1": 1088,
+                "scope_2": 2272,
+                "scope_3": 4832
+            },
+            "19646ff2-2c71-11ef-9241-6d5460e45705": {
+                "name": "Overhead Switch",
+                "type": "component",
+                "parentId": "1963504a-2c71-11ef-9241-6d5460e45705",
+                "scope_1": 296,
+                "scope_2": 400,
+                "scope_3": 1234
+            }
+        }
+    }
+}

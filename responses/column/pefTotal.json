@@ -1,0 +1,34 @@
+{
+    "Jan": {
+        "Actual": 21380,
+        "Plan": 21582
+    },
+    "Feb": {
+        "Actual": 21693,
+        "Plan": 23178
+    },
+    "Mar": {
+        "Actual": 21444,
+        "Plan": 20783
+    },
+    "Apr": {
+        "Actual": 20592,
+        "Plan": 19739
+    },
+    "May": {
+        "Actual": 22550,
+        "Plan": 21447
+    },
+    "Jun": {
+        "Actual": 21192,
+        "Plan": 21078
+    },
+    "Jul": {
+        "Actual": 21246,
+        "Plan": 20536
+    },
+    "Aug": {
+        "Actual": 22225,
+        "Plan": 21387
+    }
+}
