@@ -6,7 +6,7 @@ import {
 
 const createDynamicModels = (emissionType) => {
     return createModels({
-        emission: `SELECT \`month\`, \`category\`, \`${emissionType}\` as \`value\` FROM \`emissions\` WHERE \`component_id\` = ?`,
+        emission: `SELECT month, category, ${emissionType} as value FROM emissions WHERE component_id = $1`,
     });
 };
 

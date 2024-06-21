@@ -5,7 +5,7 @@ import {
 } from "../utilities.js";
 
 const { emissionModel } = createModels({
-    emission: `SELECT \`scope_1\`, \`scope_2\`, \`scope_3\` FROM \`emissions\` WHERE \`component_id\` = ? AND \`category\` = "Actual"`,
+    emission: `SELECT scope_1, scope_2, scope_3 FROM emissions WHERE component_id = $1 AND category = 'Actual'`,
 });
 
 export const tableModel = async () => {

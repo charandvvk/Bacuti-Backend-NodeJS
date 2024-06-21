@@ -1,4 +1,4 @@
-import { pool } from "./database/pool.js";
+import client from "./database/config.js";
 
 export const handleRequest = async (_, res, callback) => {
     try {
@@ -16,7 +16,7 @@ export const createModels = (queries) =>
             `${key}Model`,
             async (fields) => {
                 try {
-                    return (await pool.query(value, fields))[0];
+                    return (await client.query(value, fields)).rows;
                 } catch (error) {
                     console.error(error);
                     throw error;
@@ -26,9 +26,9 @@ export const createModels = (queries) =>
     );
 
 const { productModel, subassemblyModel, componentModel } = createModels({
-    product: "SELECT * FROM `products`",
-    subassembly: "SELECT * FROM `subassemblies` WHERE `product_id` = ?",
-    component: "SELECT * FROM `components` WHERE `product_id` = ?",
+    product: "SELECT * FROM products",
+    subassembly: "SELECT * FROM subassemblies WHERE product_id = $1",
+    component: "SELECT * FROM components WHERE product_id = $1",
 });
 
 export const fetchProductData = async () => {
